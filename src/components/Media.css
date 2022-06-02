@@ -1,0 +1,15 @@
+.row {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.row-header {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.row-header img {
+  margin-right: 6px;
+}
