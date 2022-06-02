@@ -1,0 +1,101 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header img {
+  width: 150px;
+}
+
+.menu {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
+
+.button {
+  background-color: #6d63ff;
+  width: 75px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3px;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4a494a;
+  width: 150px;
+}
+
+.profile img {
+  width: 35px;
+}
+
+.button-wrapper {
+  height: 35px;
+  display: flex;
+  align-items: flex-start;
+  margin-right: 10px;
+}
+
+.reactions {
+  background: linear-gradient(90deg, #43e0ff 0%, #456ffc 75%);
+}
+
+.entertainment {
+  background: linear-gradient(90deg, #456ffc 0%, #7145fc 69%);
+}
+
+.sports {
+  background: linear-gradient(90deg, #7145fc 0%, #a945fc 73%);
+}
+
+.stickers {
+  background: linear-gradient(90deg, #c445fc 0%, #ef45fc 65%);
+}
+
+.artists {
+  background: linear-gradient(90deg, #ef45fc 0%, #fc45cf 55%);
+}
+
+.moreverticon {
+  background: linear-gradient(90deg, #fc45c5 0%, #fc458f 66%);
+}
+
+.menu-button {
+  background-color: #121212;
+  height: 30px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.hover-reactions:hover {
+  background: linear-gradient(90deg, #43e0ff 0%, #456ffc 75%);
+}
+
+.hover-entertainment:hover {
+  background: linear-gradient(90deg, #456ffc 0%, #7145fc 69%);
+}
+
+.hover-sports:hover {
+  background: linear-gradient(90deg, #7145fc 0%, #a945fc 73%);
+}
+
+.hover-stickers:hover {
+  background: linear-gradient(90deg, #c445fc 0%, #ef45fc 65%);
+}
+
+.hover-artists:hover {
+  background: linear-gradient(90deg, #ef45fc 0%, #fc45cf 55%);
+}
+
+.hover-moreverticon:hover {
+  background: linear-gradient(90deg, #fc45c5 0%, #fc458f 66%);
+}
