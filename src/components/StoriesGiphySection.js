@@ -29,7 +29,6 @@ const StoriesGiphySection = ({ giphysArray }) => {
             <p>{giphy?.title}</p>
           </div>
           <img src={giphyURL} alt="" />
-          <div className={`overlay-${colorBorders}`}></div>
         </div>
         <div className="line-box">
           <div className={`line-top-${colorBorders}`}></div>

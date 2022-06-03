@@ -120,21 +120,3 @@
   margin-left: 20px;
   margin-right: 20px;
 }
-
-.overlay-purple {
-  position: absolute;
-  background: linear-gradient(
-    0deg,
-    rgba(153, 51, 255, 0.85), 0.850666%, 
-    rgba(224, 224, 224, 0), 30%
-  );
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 0;
-  overflow: hidden;
-}
-
-.giphy-tile:hover .overlay-purple {
-  height: 100%;
-}
