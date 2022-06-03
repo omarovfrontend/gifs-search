@@ -44,3 +44,97 @@
   bottom: 5px;
   left: 10px;
 }
+
+.line-top-purple {
+  background-color: #9933ff;
+  height: 6px;
+}
+
+.line-middle-purple {
+  background-color: #9933ff;
+  height: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.line-bottom-purple {
+  background-color: #9933ff;
+  height: 6px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.line-top-turqoise {
+  background-color: #00ccff;
+  height: 6px;
+}
+
+.line-middle-turqoise {
+  background-color: #18a6ca;
+  height: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.line-bottom-turqoise {
+  background-color: #127189;
+  height: 6px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.line-top-bluepurple {
+  background-color: #6157ff;
+  height: 6px;
+}
+
+.line-middle-bluepurple {
+  background-color: #4339c6;
+  height: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.line-bottom-bluepurple {
+  background-color: #2f2888;
+  height: 6px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.line-top-sunshine {
+  background-color: #d4ca4d;
+  height: 6px;
+}
+
+.line-middle-sunshine {
+  background-color: #b4ac44;
+  height: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.line-bottom-sunshine {
+  background-color: #938c37;
+  height: 6px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.overlay-purple {
+  position: absolute;
+  background: linear-gradient(
+    0deg,
+    rgba(153, 51, 255, 0.85), 0.850666%, 
+    rgba(224, 224, 224, 0), 30%
+  );
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.giphy-tile:hover .overlay-purple {
+  height: 100%;
+}
