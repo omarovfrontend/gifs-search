@@ -5,11 +5,13 @@ import "./Media.css";
 import TrendingGiphy from "./TrendingGiphy";
 import ArtistGiphy from "./ArtistGiphy";
 import ClipsGiphySection from "./ClipsGiphySection";
+import StoriesGiphySection from "./StoriesGiphySection";
 
 const Media = () => {
   const [trending, setTrending] = useState([]);
   const [artists, setArtists] = useState([]);
   const [clips, setClips] = useState([]);
+  const [stories, setStories] = useState([]);
 
   const randomizeData = (content) => {
     return content.data.sort(() => Math.random() - 0.5);
@@ -40,9 +42,8 @@ const Media = () => {
     getTrendingGiphys();
     getArtists();
     getSearchedGiphys("coffee", setClips);
+    getSearchedGiphys("pose", setStories);
   }, []);
-
-  console.log(clips, 'clipsss!');
 
   return (
     <div className="media">
@@ -83,7 +84,7 @@ const Media = () => {
           <h1>Stories</h1>
         </div>
         <div className="stories-container">
-          <p>Content</p>
+          <StoriesGiphySection giphysArray={stories} />
         </div>
       </div>
     </div>
